@@ -1,2 +1,4 @@
 # CTU-OOP
-Bài tập thực hành học phần Lập trình hướng đối tượng Đại học Cần Thơ
+Đại học Cần Thơ
+Bài tập thực hành học phần Lập trình hướng đối tượng
+Giảng viên : Cô Triệu Thanh Ngoan
