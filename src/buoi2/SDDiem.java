@@ -7,6 +7,7 @@ public class SDDiem {
 		A.hienThi();
 		Diem B = new Diem();
 		B.nhapDiem();
+		B.hienThi();
 		Diem C = new Diem(-B.giaTriX(), -B.giaTriY());
 		C.hienThi();
 		System.out.println("Khoang cach tu diem B den tam O la: "+ B.khoangCach());
