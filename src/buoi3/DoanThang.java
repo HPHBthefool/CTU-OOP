@@ -3,15 +3,15 @@ import buoi2.Diem;
 import java.util.Scanner;
 public class DoanThang {
 	private Diem d1, d2;
-	DoanThang(){
+	public DoanThang(){
 		d1 = new Diem();
 		d2 = new Diem();
 	}
-	DoanThang(Diem d1, Diem d2){
+	public DoanThang(Diem d1, Diem d2){
 		this.d1 = d1;
 		this.d2 = d2;
 	}
-	DoanThang(int x1, int y1, int x2, int y2){
+	public DoanThang(int x1, int y1, int x2, int y2){
 		Diem d1 = new Diem(x1,y1);
 		Diem d2 = new Diem(x2,y2);
 	}

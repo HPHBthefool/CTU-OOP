@@ -7,10 +7,10 @@ public class Gach {
 	private int dai;
 	private int ngang;
 	private long gia;
-	Gach (){
+	public Gach (){
 		
 	}
-	Gach (String ms, String mau, int soluong, int dai, int ngang, long gia){
+	public Gach (String ms, String mau, int soluong, int dai, int ngang, long gia){
 		this.ms = ms;
 		this.mau = mau;
 		this.soluong = soluong;
@@ -18,7 +18,7 @@ public class Gach {
 		this.ngang = ngang;
 		this.gia = gia;
 	}
-	Gach( Gach c){
+	public Gach( Gach c){
 		ms = c.ms;
 		mau = c.mau;
 		soluong = c.soluong;

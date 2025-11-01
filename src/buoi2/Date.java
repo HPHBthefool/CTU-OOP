@@ -25,6 +25,9 @@ public class Date {
 		}
 		return true;
 	}
+	public String toString() {
+		return ngay+"/"+thang+"/"+nam;
+	}
 	public void nhap() {
 		Scanner scanner = new Scanner(System.in);
 		do {
