@@ -1,8 +1,9 @@
 package buoi3;
 import java.util.Scanner;
+import java.io.Serializable;
 import java.util.Arrays;
 import buoi2.Date;
-public class SinhVien {
+public class SinhVien implements Serializable {
 	private String mssv;
 	private String hoten;
 	private Date ngaysinh;

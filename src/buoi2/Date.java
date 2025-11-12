@@ -1,8 +1,8 @@
 package buoi2;
-
+import java.io.Serializable;
 import java.util.Scanner;
 
-public class Date {
+public class Date implements Serializable {
 	private int ngay, thang , nam;
 	public Date() {
 		ngay = thang = nam =0;
